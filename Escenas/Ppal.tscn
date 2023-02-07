@@ -1,0 +1,419 @@
+[gd_scene load_steps=87 format=2]
+
+[ext_resource path="res://Resources/Player/Idle/robot_idle0.png" type="Texture" id=1]
+[ext_resource path="res://Resources/Fondo/Fondo.png" type="Texture" id=2]
+[ext_resource path="res://Resources/Player/Run/robot_run0.png" type="Texture" id=3]
+[ext_resource path="res://Resources/Player/Run/robot_run5.png" type="Texture" id=4]
+[ext_resource path="res://Resources/Player/Run/robot_run7.png" type="Texture" id=5]
+[ext_resource path="res://Resources/Player/Run/robot_run3.png" type="Texture" id=6]
+[ext_resource path="res://Resources/Player/Idle/robot_idle1.png" type="Texture" id=7]
+[ext_resource path="res://Resources/Player/Run/robot_run1.png" type="Texture" id=8]
+[ext_resource path="res://Resources/Player/Run/robot_run2.png" type="Texture" id=9]
+[ext_resource path="res://Resources/Player/Run/robot_run4.png" type="Texture" id=10]
+[ext_resource path="res://Resources/Player/Run/robot_run6.png" type="Texture" id=11]
+[ext_resource path="res://Resources/Player/Idle/robot_idle4.png" type="Texture" id=12]
+[ext_resource path="res://Resources/Player/Idle/robot_idle2.png" type="Texture" id=13]
+[ext_resource path="res://Resources/Player/Idle/robot_idle5.png" type="Texture" id=14]
+[ext_resource path="res://Resources/Player/Idle/robot_idle3.png" type="Texture" id=15]
+[ext_resource path="res://Escenas/Engrane/Engrane.tscn" type="PackedScene" id=16]
+[ext_resource path="res://Escenas/Ppal.gd" type="Script" id=17]
+[ext_resource path="res://COMPUTERRobot.ttf" type="DynamicFontData" id=18]
+[ext_resource path="res://Resources/Player/Hurt/robot_hurt5.png" type="Texture" id=19]
+[ext_resource path="res://Resources/Player/Hurt/robot_hurt6.png" type="Texture" id=20]
+[ext_resource path="res://Resources/Player/Hurt/robot_hurt7.png" type="Texture" id=21]
+[ext_resource path="res://Resources/Player/Hurt/robot_hurt2.png" type="Texture" id=22]
+[ext_resource path="res://Resources/Player/Hurt/robot_hurt0.png" type="Texture" id=23]
+[ext_resource path="res://Resources/Player/Hurt/robot_hurt1.png" type="Texture" id=24]
+[ext_resource path="res://Resources/Player/Hurt/robot_hurt3.png" type="Texture" id=25]
+[ext_resource path="res://Resources/Player/Hurt/robot_hurt4.png" type="Texture" id=26]
+[ext_resource path="res://Resources/Motosierra/motosierra03.png" type="Texture" id=27]
+[ext_resource path="res://Resources/Motosierra/motosierra02.png" type="Texture" id=28]
+[ext_resource path="res://Resources/Motosierra/motosierra05.png" type="Texture" id=29]
+[ext_resource path="res://Resources/Motosierra/motosierra07.png" type="Texture" id=30]
+[ext_resource path="res://Resources/Motosierra/motosierra00.png" type="Texture" id=31]
+[ext_resource path="res://Resources/Motosierra/motosierra08.png" type="Texture" id=32]
+[ext_resource path="res://Resources/Motosierra/motosierra01.png" type="Texture" id=33]
+[ext_resource path="res://Resources/Motosierra/motosierra09.png" type="Texture" id=34]
+[ext_resource path="res://Resources/Motosierra/motosierra06.png" type="Texture" id=35]
+[ext_resource path="res://Resources/Motosierra/motosierra04.png" type="Texture" id=36]
+[ext_resource path="res://Resources/Motosierra/motosierra10.png" type="Texture" id=37]
+[ext_resource path="res://Resources/Motosierra/motosierra11.png" type="Texture" id=38]
+[ext_resource path="res://Escenas/Enemigo/Enemigo.gd" type="Script" id=39]
+[ext_resource path="res://Resources/Battery/Battery02.png" type="Texture" id=40]
+[ext_resource path="res://Resources/Battery/Battery03.png" type="Texture" id=41]
+[ext_resource path="res://Escenas/PowerUp/PowerUp.gd" type="Script" id=42]
+[ext_resource path="res://Resources/Battery/Battery00.png" type="Texture" id=43]
+[ext_resource path="res://Resources/Battery/Battery01.png" type="Texture" id=44]
+[ext_resource path="res://Resources/Battery/Battery20.png" type="Texture" id=45]
+[ext_resource path="res://Resources/Battery/Battery19.png" type="Texture" id=46]
+[ext_resource path="res://Resources/Battery/Battery11.png" type="Texture" id=47]
+[ext_resource path="res://Resources/Battery/Battery22.png" type="Texture" id=48]
+[ext_resource path="res://Resources/Battery/Battery13.png" type="Texture" id=49]
+[ext_resource path="res://Resources/Battery/Battery23.png" type="Texture" id=50]
+[ext_resource path="res://Resources/Battery/Battery18.png" type="Texture" id=51]
+[ext_resource path="res://Resources/Battery/Battery10.png" type="Texture" id=52]
+[ext_resource path="res://Resources/Battery/Battery25.png" type="Texture" id=53]
+[ext_resource path="res://Resources/Battery/Battery04.png" type="Texture" id=54]
+[ext_resource path="res://Resources/Battery/Battery26.png" type="Texture" id=55]
+[ext_resource path="res://Resources/Battery/Battery27.png" type="Texture" id=56]
+[ext_resource path="res://Resources/Battery/Battery21.png" type="Texture" id=57]
+[ext_resource path="res://Resources/Battery/Battery29.png" type="Texture" id=58]
+[ext_resource path="res://Resources/Battery/Battery06.png" type="Texture" id=59]
+[ext_resource path="res://Resources/Battery/Battery09.png" type="Texture" id=60]
+[ext_resource path="res://Resources/Battery/Battery24.png" type="Texture" id=61]
+[ext_resource path="res://Resources/Battery/Battery07.png" type="Texture" id=62]
+[ext_resource path="res://Resources/Battery/Battery08.png" type="Texture" id=63]
+[ext_resource path="res://Resources/Battery/Battery28.png" type="Texture" id=64]
+[ext_resource path="res://Resources/Battery/Battery30.png" type="Texture" id=65]
+[ext_resource path="res://Resources/Battery/Battery05.png" type="Texture" id=66]
+[ext_resource path="res://Resources/Battery/Battery14.png" type="Texture" id=67]
+[ext_resource path="res://Resources/Battery/Battery15.png" type="Texture" id=68]
+[ext_resource path="res://Resources/Battery/Battery16.png" type="Texture" id=69]
+[ext_resource path="res://Resources/Battery/Battery12.png" type="Texture" id=70]
+[ext_resource path="res://Resources/Battery/Battery17.png" type="Texture" id=71]
+[ext_resource path="res://Resources/Escudo.png" type="Texture" id=72]
+[ext_resource path="res://Resources/Audio/1.wav" type="AudioStream" id=73]
+[ext_resource path="res://Resources/Audio/musica.ogg" type="AudioStream" id=74]
+[ext_resource path="res://Resources/Audio/2.wav" type="AudioStream" id=75]
+[ext_resource path="res://Resources/Audio/3.wav" type="AudioStream" id=76]
+[ext_resource path="res://Resources/Audio/GameOver.wav" type="AudioStream" id=77]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Area2D
+
+signal colecta
+signal atrapado
+signal escudado
+var posic = Vector2(240, 352)
+var movimiento = Vector2()
+var start= true
+var VELOCIDAD = 300
+var escudo = false
+
+func _ready():
+	OS.center_window()
+	set_position(posic)
+	pass 
+
+
+func _process(delta):
+	if start: #escribir \"start\" y escribir \"start == true\" es lo mismo
+		SF_movimiento()
+		SF_animar()
+		posic += movimiento * VELOCIDAD * delta
+		posic.x = clamp(posic.x, 50, 430)
+		posic.y = clamp(posic.y, 95, 605)
+		set_position(posic)
+		pass
+	pass
+
+
+func SF_movimiento():
+	movimiento = Vector2(0, 0)
+	if Input.is_action_pressed(\"ui_left\"):
+		movimiento.x = -1
+	if Input.is_action_pressed(\"ui_right\"):
+		movimiento.x = 1
+	if Input.is_action_pressed(\"ui_up\"):
+		movimiento.y = -1
+	if Input.is_action_pressed(\"ui_down\"):
+		movimiento.y = 1
+	if movimiento.length() > 0:
+		movimiento = movimiento.normalized()
+	pass
+
+
+func SF_animar():
+	if movimiento.x > 0:
+		$DibujoPlayer.set_flip_h(true)
+	if movimiento.x < 0:
+		$DibujoPlayer.set_flip_h(false)
+	if movimiento.length() == 0:
+		$DibujoPlayer.set_animation(\"Idle\")
+	if movimiento.length() != 0:
+		$DibujoPlayer.set_animation(\"Run\")
+	pass
+	
+
+
+func _on_Player_area_entered(area):
+	
+	if area.is_in_group(\"Engrane\"):
+		area.SF_colectado()
+		emit_signal(\"colecta\")
+	if area.is_in_group(\"Enemigo\") and escudo==false:
+		#dar game over
+		emit_signal(\"atrapado\")
+		#area.SF_atrapado()
+	if area.is_in_group(\"PowerUp\"):
+		#crear escudo 
+		$Sprite.set_visible(true)
+		# que la sierra no lo lastime al player
+		escudo=true
+		#desaparecer la bateria
+		area.SF_inicio()
+		#hacer un tiempo para el escudo
+		$TimerEscudo.start()
+		emit_signal(\"escudado\")
+		pass
+	
+	
+	pass
+func SF_gameover():
+	#animacion de hurt
+	#que deje de moverse el personaje
+	$DibujoPlayer.set_animation(\"Hurt\")
+	start= false
+	pass
+
+
+func _on_TimerEscudo_timeout():
+	#aca se desactiva el escudo en cierto tiempo
+	#la parte visible y la variable
+	$Sprite.set_visible(false)
+	escudo=false
+	pass
+"
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 7 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 12 ), ExtResource( 14 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 10 ), ExtResource( 4 ), ExtResource( 11 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "Run",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 23 ), ExtResource( 24 ), ExtResource( 22 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ) ],
+"loop": true,
+"name": "Hurt",
+"speed": 10.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=3]
+radius = 16.9071
+height = 96.433
+
+[sub_resource type="DynamicFont" id=4]
+size = 40
+font_data = ExtResource( 18 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 40
+font_data = ExtResource( 18 )
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [ ExtResource( 31 ), ExtResource( 33 ), ExtResource( 28 ), ExtResource( 27 ), ExtResource( 36 ), ExtResource( 29 ), ExtResource( 35 ), ExtResource( 30 ), ExtResource( 32 ), ExtResource( 34 ), ExtResource( 37 ), ExtResource( 38 ) ],
+"loop": true,
+"name": "default",
+"speed": 10.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 18, 4.25 )
+
+[sub_resource type="SpriteFrames" id=8]
+resource_local_to_scene = true
+animations = [ {
+"frames": [ ExtResource( 43 ), ExtResource( 44 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 54 ), ExtResource( 66 ), ExtResource( 59 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 60 ), ExtResource( 52 ), ExtResource( 47 ), ExtResource( 70 ), ExtResource( 49 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 71 ), ExtResource( 51 ), ExtResource( 46 ), ExtResource( 45 ), ExtResource( 57 ), ExtResource( 48 ), ExtResource( 50 ), ExtResource( 61 ), ExtResource( 53 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 64 ), ExtResource( 58 ), ExtResource( 65 ) ],
+"loop": true,
+"name": "default",
+"speed": 10.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 18.5, 32.5 )
+
+[node name="Ppal" type="Node2D"]
+script = ExtResource( 17 )
+Engrane = ExtResource( 16 )
+
+[node name="Fondo" type="Sprite" parent="."]
+modulate = Color( 0.376471, 1, 0, 1 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="ContenedorEngranes" type="Node2D" parent="."]
+
+[node name="Player" type="Area2D" parent="."]
+script = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="Player"]
+visible = false
+modulate = Color( 1, 0.0627451, 0.0117647, 0.321569 )
+texture = ExtResource( 72 )
+
+[node name="DibujoPlayer" type="AnimatedSprite" parent="Player"]
+scale = Vector2( 0.75, 0.75 )
+frames = SubResource( 2 )
+animation = "Hurt"
+frame = 4
+playing = true
+
+[node name="Collision" type="CollisionShape2D" parent="Player"]
+position = Vector2( -1, 2 )
+shape = SubResource( 3 )
+
+[node name="TimerEscudo" type="Timer" parent="Player"]
+wait_time = 5.0
+one_shot = true
+
+[node name="Interfaz" type="CanvasLayer" parent="."]
+
+[node name="Nivel" type="Label" parent="Interfaz"]
+margin_left = 361.0
+margin_top = 48.0
+margin_right = 469.0
+margin_bottom = 94.0
+custom_fonts/font = SubResource( 4 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Titulo" type="Label" parent="Interfaz"]
+margin_left = 35.0
+margin_top = 13.0
+margin_right = 667.0
+margin_bottom = 59.0
+custom_fonts/font = SubResource( 4 )
+text = "Puntos     Tiempo     Nivel                    "
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mensaje" type="Label" parent="Interfaz"]
+modulate = Color( 0.898039, 1, 0.0392157, 1 )
+margin_left = 137.0
+margin_top = 278.0
+margin_right = 355.0
+margin_bottom = 324.0
+custom_fonts/font = SubResource( 4 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Puntos" type="Label" parent="Interfaz"]
+margin_left = 43.0
+margin_top = 49.0
+margin_right = 143.0
+margin_bottom = 99.0
+rect_pivot_offset = Vector2( 50, 25 )
+custom_fonts/font = SubResource( 4 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tiempo" type="Label" parent="Interfaz"]
+margin_left = 202.0
+margin_top = 49.0
+margin_right = 310.0
+margin_bottom = 95.0
+custom_fonts/font = SubResource( 4 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Interfaz"]
+visible = false
+modulate = Color( 0.937255, 0.92549, 0.933333, 1 )
+self_modulate = Color( 0.984314, 1, 1, 1 )
+margin_left = 107.0
+margin_top = 388.0
+margin_right = 390.0
+margin_bottom = 472.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 5 )
+text = "JUGAR"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Timers" type="Node2D" parent="."]
+
+[node name="TimerMensajes" type="Timer" parent="Timers"]
+wait_time = 2.0
+one_shot = true
+
+[node name="TimerPrincipal" type="Timer" parent="Timers"]
+autostart = true
+
+[node name="TimerEnemigo" type="Timer" parent="Timers"]
+wait_time = 5.0
+autostart = true
+
+[node name="Enemigo" type="Area2D" parent="." groups=["Enemigo"]]
+scale = Vector2( 2, 2 )
+priority = 5.0
+script = ExtResource( 39 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Enemigo"]
+scale = Vector2( 0.25, 0.25 )
+frames = SubResource( 6 )
+frame = 2
+playing = true
+
+[node name="Collision" type="CollisionShape2D" parent="Enemigo"]
+position = Vector2( 14.5, 3 )
+shape = SubResource( 7 )
+
+[node name="PowerUp" type="Area2D" parent="." groups=["PowerUp"]]
+script = ExtResource( 42 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="PowerUp"]
+scale = Vector2( 0.4, 0.4 )
+frames = SubResource( 8 )
+frame = 15
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PowerUp"]
+position = Vector2( 0, 2 )
+shape = SubResource( 9 )
+
+[node name="Timer" type="Timer" parent="PowerUp"]
+wait_time = 5.0
+
+[node name="ContenedorAudios" type="Node2D" parent="."]
+
+[node name="AudioEngrane" type="AudioStreamPlayer" parent="ContenedorAudios"]
+stream = ExtResource( 73 )
+volume_db = -13.96
+
+[node name="AudioMusica" type="AudioStreamPlayer" parent="ContenedorAudios"]
+stream = ExtResource( 74 )
+volume_db = -15.191
+
+[node name="AudioPowerUp" type="AudioStreamPlayer" parent="ContenedorAudios"]
+stream = ExtResource( 75 )
+volume_db = 4.134
+
+[node name="AudioGameOver" type="AudioStreamPlayer" parent="ContenedorAudios"]
+stream = ExtResource( 77 )
+
+[node name="AudioLevelUp" type="AudioStreamPlayer" parent="ContenedorAudios"]
+stream = ExtResource( 76 )
+volume_db = -3.505
+
+[connection signal="area_entered" from="Player" to="Player" method="_on_Player_area_entered"]
+[connection signal="atrapado" from="Player" to="." method="_on_Player_atrapado"]
+[connection signal="colecta" from="Player" to="." method="_on_Player_colecta"]
+[connection signal="escudado" from="Player" to="." method="_on_Player_escudado"]
+[connection signal="timeout" from="Player/TimerEscudo" to="Player" method="_on_TimerEscudo_timeout"]
+[connection signal="pressed" from="Interfaz/Button" to="." method="_on_Button_pressed"]
+[connection signal="timeout" from="Timers/TimerMensajes" to="." method="_on_TimerMensajes_timeout"]
+[connection signal="timeout" from="Timers/TimerPrincipal" to="." method="_on_TimerPrincipal_timeout"]
+[connection signal="timeout" from="Timers/TimerEnemigo" to="." method="_on_TimerEnemigo_timeout"]
+[connection signal="timeout" from="PowerUp/Timer" to="PowerUp" method="_on_Timer_timeout"]

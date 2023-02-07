@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/kevin-macleod-corncob (1).mp3-13f72ffd1e861e0bdebdf7325a1999f4.mp3str"
+
+[deps]
+
+source_file="res://Resources/Audio/kevin-macleod-corncob (1).mp3"
+dest_files=[ "res://.import/kevin-macleod-corncob (1).mp3-13f72ffd1e861e0bdebdf7325a1999f4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
